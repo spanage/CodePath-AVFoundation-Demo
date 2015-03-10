@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		879DE21B1AAA6F1B003B61B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879DE21A1AAA6F1B003B61B6 /* AppDelegate.swift */; };
+		879DE21D1AAA6F1B003B61B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879DE21C1AAA6F1B003B61B6 /* ViewController.swift */; };
+		879DE2201AAA6F1B003B61B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 879DE21E1AAA6F1B003B61B6 /* Main.storyboard */; };
+		879DE2221AAA6F1B003B61B6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 879DE2211AAA6F1B003B61B6 /* Images.xcassets */; };
+		879DE2251AAA6F1B003B61B6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 879DE2231AAA6F1B003B61B6 /* LaunchScreen.xib */; };
+		879DE2311AAA6F1B003B61B6 /* VinitoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879DE2301AAA6F1B003B61B6 /* VinitoTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		879DE22B1AAA6F1B003B61B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 879DE20D1AAA6F1B003B61B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 879DE2141AAA6F1B003B61B6;
+			remoteInfo = Vinito;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		879DE2151AAA6F1B003B61B6 /* Vinito.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vinito.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		879DE2191AAA6F1B003B61B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		879DE21A1AAA6F1B003B61B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		879DE21C1AAA6F1B003B61B6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		879DE21F1AAA6F1B003B61B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		879DE2211AAA6F1B003B61B6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		879DE2241AAA6F1B003B61B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		879DE22A1AAA6F1B003B61B6 /* VinitoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VinitoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		879DE22F1AAA6F1B003B61B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		879DE2301AAA6F1B003B61B6 /* VinitoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VinitoTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		879DE2121AAA6F1B003B61B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		879DE2271AAA6F1B003B61B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		879DE20C1AAA6F1B003B61B6 = {
+			isa = PBXGroup;
+			children = (
+				879DE2171AAA6F1B003B61B6 /* Vinito */,
+				879DE22D1AAA6F1B003B61B6 /* VinitoTests */,
+				879DE2161AAA6F1B003B61B6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		879DE2161AAA6F1B003B61B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				879DE2151AAA6F1B003B61B6 /* Vinito.app */,
+				879DE22A1AAA6F1B003B61B6 /* VinitoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		879DE2171AAA6F1B003B61B6 /* Vinito */ = {
+			isa = PBXGroup;
+			children = (
+				879DE21A1AAA6F1B003B61B6 /* AppDelegate.swift */,
+				879DE21C1AAA6F1B003B61B6 /* ViewController.swift */,
+				879DE21E1AAA6F1B003B61B6 /* Main.storyboard */,
+				879DE2211AAA6F1B003B61B6 /* Images.xcassets */,
+				879DE2231AAA6F1B003B61B6 /* LaunchScreen.xib */,
+				879DE2181AAA6F1B003B61B6 /* Supporting Files */,
+			);
+			path = Vinito;
+			sourceTree = "<group>";
+		};
+		879DE2181AAA6F1B003B61B6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				879DE2191AAA6F1B003B61B6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		879DE22D1AAA6F1B003B61B6 /* VinitoTests */ = {
+			isa = PBXGroup;
+			children = (
+				879DE2301AAA6F1B003B61B6 /* VinitoTests.swift */,
+				879DE22E1AAA6F1B003B61B6 /* Supporting Files */,
+			);
+			path = VinitoTests;
+			sourceTree = "<group>";
+		};
+		879DE22E1AAA6F1B003B61B6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				879DE22F1AAA6F1B003B61B6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		879DE2141AAA6F1B003B61B6 /* Vinito */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 879DE2341AAA6F1B003B61B6 /* Build configuration list for PBXNativeTarget "Vinito" */;
+			buildPhases = (
+				879DE2111AAA6F1B003B61B6 /* Sources */,
+				879DE2121AAA6F1B003B61B6 /* Frameworks */,
+				879DE2131AAA6F1B003B61B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Vinito;
+			productName = Vinito;
+			productReference = 879DE2151AAA6F1B003B61B6 /* Vinito.app */;
+			productType = "com.apple.product-type.application";
+		};
+		879DE2291AAA6F1B003B61B6 /* VinitoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 879DE2371AAA6F1B003B61B6 /* Build configuration list for PBXNativeTarget "VinitoTests" */;
+			buildPhases = (
+				879DE2261AAA6F1B003B61B6 /* Sources */,
+				879DE2271AAA6F1B003B61B6 /* Frameworks */,
+				879DE2281AAA6F1B003B61B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				879DE22C1AAA6F1B003B61B6 /* PBXTargetDependency */,
+			);
+			name = VinitoTests;
+			productName = VinitoTests;
+			productReference = 879DE22A1AAA6F1B003B61B6 /* VinitoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		879DE20D1AAA6F1B003B61B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Sommer Panage";
+				TargetAttributes = {
+					879DE2141AAA6F1B003B61B6 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					879DE2291AAA6F1B003B61B6 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 879DE2141AAA6F1B003B61B6;
+					};
+				};
+			};
+			buildConfigurationList = 879DE2101AAA6F1B003B61B6 /* Build configuration list for PBXProject "Vinito" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 879DE20C1AAA6F1B003B61B6;
+			productRefGroup = 879DE2161AAA6F1B003B61B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				879DE2141AAA6F1B003B61B6 /* Vinito */,
+				879DE2291AAA6F1B003B61B6 /* VinitoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		879DE2131AAA6F1B003B61B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				879DE2201AAA6F1B003B61B6 /* Main.storyboard in Resources */,
+				879DE2251AAA6F1B003B61B6 /* LaunchScreen.xib in Resources */,
+				879DE2221AAA6F1B003B61B6 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		879DE2281AAA6F1B003B61B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		879DE2111AAA6F1B003B61B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				879DE21D1AAA6F1B003B61B6 /* ViewController.swift in Sources */,
+				879DE21B1AAA6F1B003B61B6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		879DE2261AAA6F1B003B61B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				879DE2311AAA6F1B003B61B6 /* VinitoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		879DE22C1AAA6F1B003B61B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 879DE2141AAA6F1B003B61B6 /* Vinito */;
+			targetProxy = 879DE22B1AAA6F1B003B61B6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		879DE21E1AAA6F1B003B61B6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				879DE21F1AAA6F1B003B61B6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		879DE2231AAA6F1B003B61B6 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				879DE2241AAA6F1B003B61B6 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		879DE2321AAA6F1B003B61B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		879DE2331AAA6F1B003B61B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		879DE2351AAA6F1B003B61B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Vinito/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		879DE2361AAA6F1B003B61B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Vinito/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		879DE2381AAA6F1B003B61B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VinitoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vinito.app/Vinito";
+			};
+			name = Debug;
+		};
+		879DE2391AAA6F1B003B61B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VinitoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vinito.app/Vinito";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		879DE2101AAA6F1B003B61B6 /* Build configuration list for PBXProject "Vinito" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				879DE2321AAA6F1B003B61B6 /* Debug */,
+				879DE2331AAA6F1B003B61B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		879DE2341AAA6F1B003B61B6 /* Build configuration list for PBXNativeTarget "Vinito" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				879DE2351AAA6F1B003B61B6 /* Debug */,
+				879DE2361AAA6F1B003B61B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		879DE2371AAA6F1B003B61B6 /* Build configuration list for PBXNativeTarget "VinitoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				879DE2381AAA6F1B003B61B6 /* Debug */,
+				879DE2391AAA6F1B003B61B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 879DE20D1AAA6F1B003B61B6 /* Project object */;
+}

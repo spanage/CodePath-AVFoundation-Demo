@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="Vinito" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5Cg-qq-RS6">
+                                <rect key="frame" x="0.0" y="20" width="320" height="320"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="5Cg-qq-RS6" secondAttribute="height" multiplier="1:1" id="PK2-Kk-oax"/>
+                                </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="ChQ-tw-0tl" appends="YES" id="Is0-zr-UAj"/>
+                                </connections>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DGZ-Pf-FAf">
+                                <rect key="frame" x="142" y="380" width="37" height="30"/>
+                                <state key="normal" title="Done">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="hKk-mB-u3o" kind="modal" id="eKX-9d-FAZ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="5Cg-qq-RS6" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="I90-he-69B"/>
+                            <constraint firstAttribute="trailing" secondItem="5Cg-qq-RS6" secondAttribute="trailing" id="hwc-iw-aPl"/>
+                            <constraint firstItem="5Cg-qq-RS6" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="j3J-jw-DlV"/>
+                            <constraint firstAttribute="centerX" secondItem="DGZ-Pf-FAf" secondAttribute="centerX" id="kQh-r2-j0O"/>
+                            <constraint firstItem="DGZ-Pf-FAf" firstAttribute="top" secondItem="5Cg-qq-RS6" secondAttribute="bottom" constant="40" id="xGX-wC-D72"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="doneButton" destination="DGZ-Pf-FAf" id="neF-Oc-klD"/>
+                        <outlet property="previewView" destination="5Cg-qq-RS6" id="9tK-sS-b0Z"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.5" id="ChQ-tw-0tl">
+                    <connections>
+                        <action selector="onPreviewLongPress:" destination="vXZ-lx-hvc" id="ate-Ra-nPM"/>
+                    </connections>
+                </pongPressGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="148.26666666666665" y="320.92000000000002"/>
+        </scene>
+        <!--AV Player View Controller-->
+        <scene sceneID="EzT-aM-MeM">
+            <objects>
+                <avPlayerViewController videoGravity="AVLayerVideoGravityResizeAspect" id="hKk-mB-u3o" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FYL-fu-W4a" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="552" y="320"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
